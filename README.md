@@ -27,7 +27,7 @@ I'm also member of the [Legged Robotics Group](https://github.com/leggedrobotics
 
 | Languages | Libraries \| Frameworks | Where I used it |
 |-----------|----------------------|-----------------|
-| C++       | ROS, Eigen3          | [Xsens ROS driver](https://github.com/qleonardolp/xsens_mtw_driver-release), [Quaternion Kalman Filer](https://github.com/ReRob-USP/ExoGUI) |
+| C++       | ROS, Eigen3          | [Xsens ROS driver](https://github.com/qleonardolp/xsens_mtw_driver-release), [Quaternion Kalman Filter](https://github.com/ReRob-USP/ExoGUI) |
 | C         | PlatformIO, stm32 HAL| [IC2D test bench software setup](https://github.com/qleonardolp/ic2d-nucleo)
 | Python    | Pinocchio, Numpy, Matplotlib, Python Control Systems Library | [Numerical Methods and FEM class](https://github.com/qleonardolp/metodos_numericos), [Legged Robotics class](https://github.com/qleonardolp/pinocchio_2dof_leg_control) |
 | Matlab/Simulink 🤔| Control System Toolbox, Aerospace blockset... | probably used along side the mentioned projects | 
