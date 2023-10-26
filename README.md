@@ -1,4 +1,4 @@
-### Hi there 👋
+### Hello World! 💫
 
 <!--
 **qleonardolp/qleonardolp** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
@@ -14,3 +14,22 @@ Here are some ideas to get you started:
 - 😄 Pronouns: ...
 - ⚡ Fun fact: ...
 -->
+
+Welcome to my GitHub home. I'm a mechatronic engineer, currently working at [Senai Cimatec](https://github.com/Brazilian-Institute-of-Robotics). 
+I'm also member of the [Legged Robotics Group](https://github.com/leggedrobotics-usp), as a PhD candidate.
+
+- 💬 Ask me about: impedance control, human-robot physical interaction, control systems, digital signal processing
+- 🤔 I’m looking for help with: STM32, CMake files.
+- 🌱 I’m currently learning: TypeScript
+
+<details>
+<summary>My favorites ...</summary>
+
+| Languages | Libraries \| Frameworks | Where I used it |
+|-----------|----------------------|-----------------|
+| C++       | ROS, Eigen3          | [Xsens ROS driver](https://github.com/qleonardolp/xsens_mtw_driver-release), [Quaternion Kalman Filer](https://github.com/ReRob-USP/ExoGUI) |
+| C         | PlatformIO, stm32 HAL| [IC2D test bench software setup](https://github.com/qleonardolp/ic2d-nucleo)
+| Python    | Pinocchio, Numpy, Matplotlib, Python Control Systems Library | [Numerical Methods and FEM class](https://github.com/qleonardolp/metodos_numericos), [Legged Robotics class](https://github.com/qleonardolp/pinocchio_2dof_leg_control) |
+| Matlab/Simulink 🤔| Control System Toolbox, Aerospace blockset... | probably used along side the mentioned projects | 
+</details>
+
