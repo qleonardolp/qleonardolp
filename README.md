@@ -19,9 +19,7 @@ Welcome to my GitHub home. I'm a mechatronic engineer, currently working at [Sen
 I'm also a member of the [Legged Robotics Group](https://github.com/leggedrobotics-usp), as a PhD candidate.
 
 - 💬 Ask me about: impedance control, human-robot physical interaction, control systems, digital signal processing
-- 🤔 I’m looking for help with: CMakeLists or Makefile for embedded projects, such as STM32
-- 🌱 I’m currently learning: STM32, and FreeRTOS
-- 👁️‍🗨️ I'm looking forward to learning: TypeScript, Rust
+- 👁️‍🗨️ I'm looking forward to learning: Typescript
 
 <details>
 <summary>My favorites ...</summary>
