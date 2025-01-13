@@ -9,7 +9,6 @@
     },
     "C_Cpp.clang_format_style": "Google",
     "C_Cpp.clang_format_fallbackStyle": "Google",
-    "cmake.showOptionsMovedNotification": false,
     "C_Cpp.clang_format_sortIncludes": true,
     "C_Cpp.vcFormat.indent.accessSpecifiers": true,
     "C_Cpp.vcFormat.indent.braces": true,
@@ -21,13 +20,8 @@
       "editorRuler.foreground": "#00999922"
     },
     "editor.rulers": [
-    
-      0, 
-      2, 2,
-      4, 4, 4, 
-      6, 6, 6, 6,
-      80, 80, 80, 80, 80,
-      100, 100, 100, 100, 100, 100,
-      120, 120, 120, 120, 120, 120, 120,
+      80, 80,
+      100, 100, 100,
+      120, 120, 120, 120,
     ],
 }
