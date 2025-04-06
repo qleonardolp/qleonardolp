@@ -1,6 +1,6 @@
 {
     "[python]": {
-        "editor.defaultFormatter": "ms-python.black-formatter"
+        "editor.defaultFormatter": "ms-python.flake8"
     },
     "editor.detectIndentation": false,
     "editor.indentSize": "tabSize",
@@ -24,4 +24,5 @@
       100, 100, 100,
       120, 120, 120, 120,
     ],
+    "cmake.sourceDirectory": "${workspaceFolder}/**",
 }
