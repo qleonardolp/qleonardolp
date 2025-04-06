@@ -1,0 +1,10 @@
+{
+    "workbench.colorTheme": "Quiet Light",
+    "cmake.showOptionsMovedNotification": false,
+    "extensions.ignoreRecommendations": true,
+    "editor.minimap.enabled": false,
+    "cmake.pinnedCommands": [
+        "workbench.action.tasks.configureTaskRunner",
+        "workbench.action.tasks.runTask"
+    ]
+}
