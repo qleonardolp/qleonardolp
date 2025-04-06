@@ -1,0 +1,97 @@
+{
+  // See https://go.microsoft.com/fwlink/?LinkId=733558
+  // for the documentation about the tasks.json format
+  "version": "2.0.0",
+  "tasks": [
+    {
+      "label": "build",
+      "detail": "colcon build <package>",
+      "type": "shell",
+      "command": "colcon build --packages-up-to ${input:package} --event-handlers console_direct+",
+      "group": {
+        "kind": "build",
+        "isDefault": true
+      },
+      "problemMatcher": "$gcc"
+    },
+    {
+      "label": "debug",
+      "detail": "Build for debugging",
+      "type": "shell",
+      "command": "colcon build --packages-select ${input:package} --cmake-args -DCMAKE_BUILD_TYPE=Debug --event-handlers console_direct+",
+      "group": "build",
+      "problemMatcher": "$gcc"
+    },
+    {
+      "label": "test",
+      "detail": "Run unit tests and show results.",
+      "type": "shell",
+      "command": "colcon test --packages-up-to ${input:package} --event-handlers console_direct+",
+      "group": {
+        "kind": "test",
+        "isDefault": true
+      }
+    },
+    {
+      "label": "clean",
+      "detail": "Run the clean target",
+      "type": "shell",
+      "command": "colcon build --cmake-target clean",
+      "problemMatcher": "$gcc"
+    },
+    {
+      "label": "purge",
+      "detail": "Purge workspace by deleting all generated files.",
+      "type": "shell",
+      "command": "sudo rm -rf build install log; sudo py3clean .",
+      "problemMatcher": []
+    },
+    {
+      "label": "source",
+      "detail": "Source workspace",
+      "type": "shell",
+      "command": "source /opt/ros/${ROS_DISTRO}/setup.bash && source ${workspaceFolder}/install/setup.bash",
+      "problemMatcher": []
+    },
+    {
+      "label": "fix",
+      "detail": "Reformat files with uncrustify.",
+      "type": "shell",
+      "command": "ament_uncrustify --reformat src/",
+      "problemMatcher": []
+    },
+    {
+      "label": "uncrustify",
+      "detail": "Lint files with uncrustify.",
+      "type": "shell",
+      "command": "ament_uncrustify src/",
+      "presentation": {
+        "panel": "dedicated",
+        "reveal": "silent",
+        "clear": true
+      },
+      "problemMatcher": [
+        {
+          "owner": "uncrustify",
+          "source": "uncrustify",
+          "fileLocation": "relative",
+          "pattern": [
+            {
+              "regexp": "^(.*)'(.*)':",
+              "kind": "file",
+              "file": 2,
+              "message": 1
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "inputs": [
+      {
+          "id": "package",
+          "type": "promptString",
+          "description": "Package name"
+      }
+  ]
+}
