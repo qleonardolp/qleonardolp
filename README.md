@@ -18,7 +18,7 @@ Here are some ideas to get you started:
 Welcome to my GitHub home. I'm a mechatronic engineer, currently working at [Senai Cimatec](https://github.com/Brazilian-Institute-of-Robotics). 
 I'm also a member of the [Legged Robotics Group](https://github.com/leggedrobotics-usp), as a PhD candidate.
 
-- 💬 Ask me about: control systems, impedance control, robotic physical interaction control, DSP, ros2_control
+- 💬 Ask me about: control systems, impedance control, robot physical interaction, DSP, ros2_controllers
 
 <details>
 <summary>My favorites ...</summary>
