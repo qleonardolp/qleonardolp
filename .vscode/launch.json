@@ -9,7 +9,7 @@
       "name": "ROS2: Launch",
       "type": "ros",
       "request": "launch",
-      "target": "${workspaceFolder}/install/ros2_impedance_controller/share/ros2_impedance_controller/launch/ur5_simulation.launch.py",
+      "target": "${workspaceFolder}/install/ros2_impedance_controller/share/ros2_impedance_controller/launch/simulation.launch.py",
       "launch": ["rviz2", "gz", "gzserver", "gzclient"],  // ignore these executables
       "arguments": ["debug:=true"],
       "preLaunchTask": "debug",
