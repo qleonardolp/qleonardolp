@@ -7,7 +7,7 @@
       "label": "build",
       "detail": "colcon build <package>",
       "type": "shell",
-      "command": "colcon build --packages-select ${input:package} --event-handlers console_direct+",
+      "command": "colcon build --parallel-workers 4 --packages-select ${input:package} --event-handlers console_direct+",
       "group": {
         "kind": "build",
         "isDefault": true
@@ -64,7 +64,7 @@
       "label": "uncrustify",
       "detail": "Lint files with uncrustify.",
       "type": "shell",
-      "command": "ament_uncrustify src/",
+      "command": "ament_uncrustify --reformat --linelength=120",
       "presentation": {
         "panel": "dedicated",
         "reveal": "silent",
