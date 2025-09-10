@@ -1,6 +1,4 @@
 {
-  // See https://go.microsoft.com/fwlink/?LinkId=733558
-  // for the documentation about the tasks.json format
   "version": "2.0.0",
   "tasks": [
     {
@@ -57,14 +55,14 @@
       "label": "fix",
       "detail": "Reformat files with uncrustify.",
       "type": "shell",
-      "command": "ament_uncrustify --reformat src/",
+      "command": "ament_uncrustify --reformat --linelength=120 src/",
       "problemMatcher": []
     },
     {
       "label": "uncrustify",
       "detail": "Lint files with uncrustify.",
       "type": "shell",
-      "command": "ament_uncrustify --reformat --linelength=120",
+      "command": "ament_uncrustify src/",
       "presentation": {
         "panel": "dedicated",
         "reveal": "silent",
