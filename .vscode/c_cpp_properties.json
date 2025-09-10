@@ -6,7 +6,6 @@
                 "/usr/local/include/**",
                 "/usr/include/eigen3",
                 "/opt/ros/${ROS_DISTRO}/include",
-                "/opt/ros/${ROS_DISTRO}/opt/gz_dartsim_vendor/include/**",
                 "${workspaceFolder}/**"
             ],
             "defines": [],
